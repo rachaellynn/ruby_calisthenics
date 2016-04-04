@@ -6,7 +6,7 @@ guessed_word = guessed_word.split("")
 turns = 1
 
 while turns <= 6
-	if guessed_word == word
+	if guessed_word == word 
 		puts 'you have won the game!'
 		break
 	else
